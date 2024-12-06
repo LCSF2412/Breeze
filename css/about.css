@@ -1,0 +1,113 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+main {
+    padding: 0;
+}
+
+.about-section {
+    padding: 20px;
+    background-color: #fff3e0;
+}
+
+.about-section h1,
+.about-section h2 {
+    color: #A59D84;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about-section p {
+    margin: 10px 0;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* Product Features List */
+.product-features {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+.product-features li {
+    background: #fff3e0;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+}
+
+/* Why Choose Us Section */
+.why-choose-us ol {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+    text-align: left;
+}
+
+.why-choose-us ol li {
+    margin: 15px 0;
+    font-size: 1rem;
+}
+
+/* Our Guarantee Section */
+.our-guarantee {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff3e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-section {
+        padding: 10px;
+    }
+
+    .about-section h1,
+    .about-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-section p {
+        font-size: 0.9rem;
+    }
+
+    .product-features li,
+    .why-choose-us ol li {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .about-section h1,
+    .about-section h2 {
+        font-size: 1.2rem;
+    }
+
+    .product-features li {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+
+    .why-choose-us ol li {
+        font-size: 0.8rem;
+    }
+
+    .our-guarantee {
+        font-size: 0.8rem;
+    }
+}

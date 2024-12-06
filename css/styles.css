@@ -1,0 +1,583 @@
+body {
+    background-color: #f0f0f0;
+    /* Light background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #A59D84;
+    /* dark background */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav {
+    background-color: #A59D84;
+    /* Dark background for nav */
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #D7D3BF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #D7D3BF;
+    /* Light on hover */
+    color: black;
+}
+
+main {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #D7D3BF;
+    /* White background for main content */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* General Landing Page Styling */
+.landing-page {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff3e0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Title and Subtitle */
+.landing-title {
+    font-size: 2.5rem;
+    color: #A59D84;
+    margin-bottom: 10px;
+}
+
+.landing-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Landing Image */
+.landing-image {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Info Section */
+.landing-info h2 {
+    font-size: 1.8rem;
+    color: #A59D84;
+    margin: 20px 0 10px;
+}
+
+.landing-info ul {
+    list-style: disc;
+    padding: 0 20px;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.landing-info ul li {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Call-to-Action Section */
+.cta-section {
+    background-color: #fff3e0;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cta-section h2 {
+    font-size: 1.8rem;
+    color: #A59D84;
+}
+
+.cta-section p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #A59D84;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background-color: #D7D3BF;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff3e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-section h2 {
+    font-size: 1.8rem;
+    color: #A59D84;
+    margin-bottom: 10px;
+}
+
+blockquote {
+    font-size: 1rem;
+    font-style: italic;
+    color: #555;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Special Offers Section */
+.special-offers {
+    padding: 2rem;
+    background-color: #D7D3BF;
+    text-align: center;
+    color: #333;
+}
+
+.special-offers-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #444;
+}
+
+.special-offers-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.special-offers-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.special-offer {
+    background-color: #fff3e0;
+    border: 1px solid #A59D84;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.special-offer:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.offer-img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.offer-text {
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.offer-text strong {
+    color: #fff3e0;
+}
+
+/*contact css*/
+/* Form Styling */
+.booking-form {
+    background-color: #fff3e0;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.booking-fieldset {
+    border: none;
+}
+
+.booking-legend {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.booking-list {
+    list-style: none;
+    padding: 0;
+}
+
+.booking-item {
+    margin-bottom: 1rem;
+}
+
+.booking-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.booking-input,
+.booking-select,
+.booking-textarea,
+.booking-date {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.booking-textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.booking-checkbox-label {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+
+.booking-checkbox {
+    margin-right: 0.5rem;
+}
+
+.booking-submit,
+.booking-reset {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #A59D84;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.booking-reset {
+    background-color: #555;
+}
+
+.booking-submit:hover {
+    background-color: #fff3e0;
+}
+
+.booking-reset:hover {
+    background-color: #333;
+}
+
+.map-container {
+    margin-top: 40px;
+}
+
+.map-title {
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.map-iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+    border-radius: 8px;
+}
+
+/* General Styling for the team page  */
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff3e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Team Member Styling */
+.team-member {
+    flex: 1 1 calc(33.33% - 40px);
+    /* 3 columns layout */
+    max-width: 300px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Team Avatar */
+.team-avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Team Member Info */
+.team-member-info {
+    margin-bottom: 15px;
+}
+
+.team-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007f8a;
+}
+
+.team-role {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Additional Titles and Descriptions */
+.team-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.team-description {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* General Media Gallery Styles */
+.media-gallery {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff3e0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.gallery-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    color: #A59D84;
+}
+
+.media-section {
+    margin-bottom: 2rem;
+}
+
+.media-subtitle {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+.media-description {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 0.5rem;
+}
+
+/* Audio Component Styling */
+.audio-wrapper {
+    margin: 1rem auto;
+    width: 80%;
+    max-width: 500px;
+}
+
+.audio-player {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Video Component Styling */
+.video-wrapper {
+    margin: 1rem auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.video-player {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* FAQ Section Styling */
+.faq-section {
+    background-color: #fff3e0;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #A59D84;
+    font-weight: bold;
+}
+
+.faq-item {
+    background-color: #fff;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.faq-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.faq-question {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #444;
+    font-weight: bold;
+}
+
+.faq-answer {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Main Title Styling */
+.schedule-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    color: #A59D84;
+}
+
+/* Table Styling */
+.training-schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+}
+
+.training-schedule caption {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+}
+
+.training-schedule th,
+.training-schedule td {
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    text-align: left;
+}
+
+.training-schedule th {
+    background-color: #A59D84;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.training-schedule tbody tr {
+    background-color: #fff3e0;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.training-schedule tbody tr:hover {
+    background-color: #f1f1f1;
+    transform: translateY(-2px);
+}
+
+.clickable-row {
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    /* Smaller font size for footer */
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #D7D3BF;
+    padding: 8px;
+}
+
+th {
+    background-color: #A59D84;
+    color: white;
+}
+
+tr:hover {
+    background-color: #A59D84;
+    /* Highlight row on hover */
+}
